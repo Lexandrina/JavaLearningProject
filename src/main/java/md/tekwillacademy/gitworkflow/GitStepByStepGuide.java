@@ -40,7 +40,5 @@ public class GitStepByStepGuide {
         System.out.println(step16);
         System.out.println(step17);
         System.out.println(step18);
-
-
     }
 }
