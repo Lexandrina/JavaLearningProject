@@ -5,6 +5,7 @@ public class ZooClubService {
         Dog bimDog = new Dog("Bim");
         Animal lucyCat = new Cat("LucyMiaw");
         Animal mouseMickey = new Mouse("Mickey mouse");
+        Animal chickenCiki = new Chicken("Ciki");
 
         lucyCat.eat();
         lucyCat.makeSound();
@@ -15,5 +16,8 @@ public class ZooClubService {
 
         mouseMickey.eat();
         mouseMickey.makeSound();
+
+        chickenCiki.eat();
+        chickenCiki.makeSound();
     }
 }
