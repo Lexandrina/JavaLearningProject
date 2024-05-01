@@ -6,13 +6,28 @@ public class ComparisonOperationsExample {
         int b = 10;
         int c = 6;
 
-        System.out.println((a>=b));
-        System.out.println((a<b));
-        System.out.println(a==b);
-        System.out.println(a != c);
-        System.out.println(a <= c);
-        System.out.println(a> c);
+        //Egal cu
+        boolean isEqual = a == b;
+        System.out.println("Egal cu: " + isEqual);
 
-        System.out.println((876%890) > 1);
+        //Diferit de
+        boolean isNotEqual = a != b;
+        System.out.println("Diferit de: " + isNotEqual);
+
+        //Mai mare decit
+        boolean isGreaterThan = a > c;
+        System.out.println("Mai mare decit: " + isGreaterThan);
+
+        //Mai mic decit
+        boolean isLessThan = b < a;
+        System.out.println("Mai mic decit: " + isLessThan);
+
+        //Mai mare sau egal cu
+        boolean isGreaterThanOrEqual = a >= b;
+        System.out.println("Mai mare sau egal cu: " + isGreaterThanOrEqual);
+
+        //Mai mic sau egal cu
+        boolean isLessThanOrEqual = a >= c;
+        System.out.println("Mai mult sau egal cu: " + isLessThanOrEqual);
     }
 }
