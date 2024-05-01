@@ -3,7 +3,7 @@ package md.tekwillacademy.operationsandciclicfunctions;
 public class DayOfTheWeekService {
     public static void main(String[] args) {
         int dayNumber = 2;
-        switch (dayNumber){
+        switch (dayNumber) {
             case 1:
                 System.out.println("Luni");
                 break;
@@ -27,8 +27,6 @@ public class DayOfTheWeekService {
                 break;
             default:
                 System.out.println("inexistent");
-
-
         }
     }
 }
