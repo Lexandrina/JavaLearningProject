@@ -11,9 +11,9 @@ public class ArithmeticOperationsService {
     public static double divideWithExceptionHandling(int a, int b) {
         try {
             return a / b;
-        } catch (ArithmeticException captureException) {
-            System.out.println(captureException.getMessage());
+        } catch (ArithmeticException capturedException) {
+            System.out.println(capturedException.getMessage());
+            return 0;
         }
     }
-
 }

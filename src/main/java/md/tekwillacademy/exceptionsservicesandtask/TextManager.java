@@ -28,16 +28,22 @@ public class TextManager {
         }
     }
 
-    public static String readDataWithTryCatch(String filename) {
+//    public static void readData(String filename){
+//    FileReader fileReader = new FileReader(filename);
+//        System.out.println("Filter reader was created");
+//    }
+
+    public static void readDataWithTryCatch(String filename) {
         try {
             FileReader fileRider = new FileReader(filename);
         } catch (FileNotFoundException e) {
-            System.out.println("Continuam executia dar afisam mesajul stocat in obiectul e capturat");
+            System.out.println("Continuam executia dar afisam mesajul stocat in obiectul e capturat:" + e.getMessage());
         }
-        System.out.println("Filterreader was created");
+        System.out.println("Filter reader was created");
     }
 
-    public static void readWithoutTryAndCatch(String filename) throws FileNotFoundException{
-FileReader fileReader = new FileReader(filename);
+    public static void readWithoutTryAndCatch(String filename) throws FileNotFoundException {
+        FileReader fileReader = new FileReader(filename);
+        System.out.println("Filter reader was created");
     }
 }
